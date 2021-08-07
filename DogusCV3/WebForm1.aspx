@@ -44,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="Admin_Deneyim_Ekle.aspx">Admin Paneli</a>
+                    <a class="nav-link js-scroll-trigger" href="Giris_Form.aspx">Admin Paneli</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">Hakkında</a>
