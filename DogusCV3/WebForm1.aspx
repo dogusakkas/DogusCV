@@ -186,8 +186,9 @@
                     <div class="my-auto">
                         <div class="resume-item d-flex flex-column flex-md-row mb-5">
                             <div class="resume-content mr-auto">
-                                <h3 class="mb-0">
-                                    <asp:Label ID="Label7" runat="server" Text='<%# Eval("Yetenek") %>'></asp:Label></h3>
+                                <div class="subheading mb-3">
+                                    <asp:Label ID="Label8" runat="server" Text='<%# Eval("Yetenek") %>'></asp:Label>
+                                </div>
                             </div>
                         </div>
                     </div>
