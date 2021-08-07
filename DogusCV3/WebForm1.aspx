@@ -70,7 +70,7 @@
 
     <div class="container-fluid p-0">
 
-        <%-- HAKKINDA --%>
+        <%-- HAKKINDA  --%>
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
             <asp:Repeater ID="Repeater1" runat="server">
                 <ItemTemplate>
