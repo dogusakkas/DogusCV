@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogusCV", "DogusCV3\DogusCV.csproj", "{5030CE98-BB7C-4236-A37A-5A1225B2CA2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogusCV3", "DogusCV3\DogusCV3.csproj", "{5030CE98-BB7C-4236-A37A-5A1225B2CA2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

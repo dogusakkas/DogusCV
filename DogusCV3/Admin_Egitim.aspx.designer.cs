@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DogusCV.Admin_Egitim
+namespace DogusCV3.Admin_Egitim
 {
 
 

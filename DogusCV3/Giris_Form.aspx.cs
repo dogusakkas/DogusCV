@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace DogusCV
+namespace DogusCV3
 {
     public partial class Giris_Form : System.Web.UI.Page
     {

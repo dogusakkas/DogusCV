@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="DogusCV.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="DogusCV3.WebForm1" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,6 +43,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="Admin_Deneyim_Ekle.aspx">Admin Paneli</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">Hakkında</a>
                 </li>
@@ -90,19 +93,19 @@
                             <asp:Label ID="Label6" runat="server" Text='<%# Eval("Hakkinda") %>'></asp:Label>
                         </p>
                         <div class="social-icons">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/dogusakkas/">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://github.com/dogusakkas">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://twitter.com/dogusakkas">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.facebook.com/dogusakkas">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/dogusakkas/">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>

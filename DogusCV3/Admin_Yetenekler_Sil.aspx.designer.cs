@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace DogusCV
+namespace DogusCV3
 {
     public partial class Admin_Yetenekler_Sil
     {

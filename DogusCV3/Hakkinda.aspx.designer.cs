@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DogusCV
+namespace DogusCV3
 {
 
 

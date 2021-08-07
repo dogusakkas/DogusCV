@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Giris_Form.aspx.cs" Inherits="DogusCV.Giris_Form" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Giris_Form.aspx.cs" Inherits="DogusCV3.Giris_Form" %>
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>

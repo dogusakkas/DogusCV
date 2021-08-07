@@ -420,7 +420,7 @@ FROM            Tbl_Yetenekler</CommandText>
                   </DbCommand>
                 </InsertCommand>
               </DbSource>
-              <DbSource ConnectionRef="DogusCvDBConnectionString (Web.config)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="Yetenekler_Guncelle" Modifier="Public" Name="Yetenekler_Guncelle" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="Yetenekler_Guncelle">
+              <DbSource ConnectionRef="DogusCvDBConnectionString (Web.config)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="Yetenekler_Guncelle" Modifier="Public" Name="Yetenekler_Guncelle" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="Yetenekler_Guncelle">
                 <UpdateCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>UPDATE Tbl_Yetenekler Set Yetenek=@Yetenek Where ID=@ID</CommandText>
@@ -431,7 +431,7 @@ FROM            Tbl_Yetenekler</CommandText>
                   </DbCommand>
                 </UpdateCommand>
               </DbSource>
-              <DbSource ConnectionRef="DogusCvDBConnectionString (Web.config)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="Yetenekler_Sil" Modifier="Public" Name="Yetenekler_Sil" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="Yetenekler_Sil">
+              <DbSource ConnectionRef="DogusCvDBConnectionString (Web.config)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="Yetenekler_Sil" Modifier="Public" Name="Yetenekler_Sil" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="Yetenekler_Sil">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>DELETE FROM Tbl_Yetenekler Where ID=@ID</CommandText>
@@ -451,7 +451,7 @@ FROM            Tbl_Yetenekler</CommandText>
   <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Tbl_Hakkinda" msprop:Generator_TableClassName="Tbl_HakkindaDataTable" msprop:Generator_TableVarName="tableTbl_Hakkinda" msprop:Generator_RowChangedName="Tbl_HakkindaRowChanged" msprop:Generator_TablePropName="Tbl_Hakkinda" msprop:Generator_RowDeletingName="Tbl_HakkindaRowDeleting" msprop:Generator_RowChangingName="Tbl_HakkindaRowChanging" msprop:Generator_RowEvHandlerName="Tbl_HakkindaRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_HakkindaRowDeleted" msprop:Generator_RowClassName="Tbl_HakkindaRow" msprop:Generator_UserTableName="Tbl_Hakkinda" msprop:Generator_RowEvArgName="Tbl_HakkindaRowChangeEvent">
+        <xs:element name="Tbl_Hakkinda" msprop:Generator_TableClassName="Tbl_HakkindaDataTable" msprop:Generator_TableVarName="tableTbl_Hakkinda" msprop:Generator_TablePropName="Tbl_Hakkinda" msprop:Generator_RowDeletingName="Tbl_HakkindaRowDeleting" msprop:Generator_RowChangingName="Tbl_HakkindaRowChanging" msprop:Generator_RowEvHandlerName="Tbl_HakkindaRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_HakkindaRowDeleted" msprop:Generator_UserTableName="Tbl_Hakkinda" msprop:Generator_RowChangedName="Tbl_HakkindaRowChanged" msprop:Generator_RowEvArgName="Tbl_HakkindaRowChangeEvent" msprop:Generator_RowClassName="Tbl_HakkindaRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:short" />
@@ -507,7 +507,7 @@ FROM            Tbl_Yetenekler</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Tbl_Deneyim" msprop:Generator_TableClassName="Tbl_DeneyimDataTable" msprop:Generator_TableVarName="tableTbl_Deneyim" msprop:Generator_RowChangedName="Tbl_DeneyimRowChanged" msprop:Generator_TablePropName="Tbl_Deneyim" msprop:Generator_RowDeletingName="Tbl_DeneyimRowDeleting" msprop:Generator_RowChangingName="Tbl_DeneyimRowChanging" msprop:Generator_RowEvHandlerName="Tbl_DeneyimRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_DeneyimRowDeleted" msprop:Generator_RowClassName="Tbl_DeneyimRow" msprop:Generator_UserTableName="Tbl_Deneyim" msprop:Generator_RowEvArgName="Tbl_DeneyimRowChangeEvent">
+        <xs:element name="Tbl_Deneyim" msprop:Generator_TableClassName="Tbl_DeneyimDataTable" msprop:Generator_TableVarName="tableTbl_Deneyim" msprop:Generator_TablePropName="Tbl_Deneyim" msprop:Generator_RowDeletingName="Tbl_DeneyimRowDeleting" msprop:Generator_RowChangingName="Tbl_DeneyimRowChanging" msprop:Generator_RowEvHandlerName="Tbl_DeneyimRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_DeneyimRowDeleted" msprop:Generator_UserTableName="Tbl_Deneyim" msprop:Generator_RowChangedName="Tbl_DeneyimRowChanged" msprop:Generator_RowEvArgName="Tbl_DeneyimRowChangeEvent" msprop:Generator_RowClassName="Tbl_DeneyimRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:short" />
@@ -542,7 +542,7 @@ FROM            Tbl_Yetenekler</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Tbl_Egitim" msprop:Generator_TableClassName="Tbl_EgitimDataTable" msprop:Generator_TableVarName="tableTbl_Egitim" msprop:Generator_RowChangedName="Tbl_EgitimRowChanged" msprop:Generator_TablePropName="Tbl_Egitim" msprop:Generator_RowDeletingName="Tbl_EgitimRowDeleting" msprop:Generator_RowChangingName="Tbl_EgitimRowChanging" msprop:Generator_RowEvHandlerName="Tbl_EgitimRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_EgitimRowDeleted" msprop:Generator_RowClassName="Tbl_EgitimRow" msprop:Generator_UserTableName="Tbl_Egitim" msprop:Generator_RowEvArgName="Tbl_EgitimRowChangeEvent">
+        <xs:element name="Tbl_Egitim" msprop:Generator_TableClassName="Tbl_EgitimDataTable" msprop:Generator_TableVarName="tableTbl_Egitim" msprop:Generator_TablePropName="Tbl_Egitim" msprop:Generator_RowDeletingName="Tbl_EgitimRowDeleting" msprop:Generator_RowChangingName="Tbl_EgitimRowChanging" msprop:Generator_RowEvHandlerName="Tbl_EgitimRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_EgitimRowDeleted" msprop:Generator_UserTableName="Tbl_Egitim" msprop:Generator_RowChangedName="Tbl_EgitimRowChanged" msprop:Generator_RowEvArgName="Tbl_EgitimRowChangeEvent" msprop:Generator_RowClassName="Tbl_EgitimRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:short" />
@@ -584,7 +584,7 @@ FROM            Tbl_Yetenekler</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Tbl_Hobiler" msprop:Generator_TableClassName="Tbl_HobilerDataTable" msprop:Generator_TableVarName="tableTbl_Hobiler" msprop:Generator_RowChangedName="Tbl_HobilerRowChanged" msprop:Generator_TablePropName="Tbl_Hobiler" msprop:Generator_RowDeletingName="Tbl_HobilerRowDeleting" msprop:Generator_RowChangingName="Tbl_HobilerRowChanging" msprop:Generator_RowEvHandlerName="Tbl_HobilerRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_HobilerRowDeleted" msprop:Generator_RowClassName="Tbl_HobilerRow" msprop:Generator_UserTableName="Tbl_Hobiler" msprop:Generator_RowEvArgName="Tbl_HobilerRowChangeEvent">
+        <xs:element name="Tbl_Hobiler" msprop:Generator_TableClassName="Tbl_HobilerDataTable" msprop:Generator_TableVarName="tableTbl_Hobiler" msprop:Generator_TablePropName="Tbl_Hobiler" msprop:Generator_RowDeletingName="Tbl_HobilerRowDeleting" msprop:Generator_RowChangingName="Tbl_HobilerRowChanging" msprop:Generator_RowEvHandlerName="Tbl_HobilerRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_HobilerRowDeleted" msprop:Generator_UserTableName="Tbl_Hobiler" msprop:Generator_RowChangedName="Tbl_HobilerRowChanged" msprop:Generator_RowEvArgName="Tbl_HobilerRowChangeEvent" msprop:Generator_RowClassName="Tbl_HobilerRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:short" />
@@ -598,7 +598,7 @@ FROM            Tbl_Yetenekler</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Tbl_Sertifikalar" msprop:Generator_TableClassName="Tbl_SertifikalarDataTable" msprop:Generator_TableVarName="tableTbl_Sertifikalar" msprop:Generator_RowChangedName="Tbl_SertifikalarRowChanged" msprop:Generator_TablePropName="Tbl_Sertifikalar" msprop:Generator_RowDeletingName="Tbl_SertifikalarRowDeleting" msprop:Generator_RowChangingName="Tbl_SertifikalarRowChanging" msprop:Generator_RowEvHandlerName="Tbl_SertifikalarRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_SertifikalarRowDeleted" msprop:Generator_RowClassName="Tbl_SertifikalarRow" msprop:Generator_UserTableName="Tbl_Sertifikalar" msprop:Generator_RowEvArgName="Tbl_SertifikalarRowChangeEvent">
+        <xs:element name="Tbl_Sertifikalar" msprop:Generator_TableClassName="Tbl_SertifikalarDataTable" msprop:Generator_TableVarName="tableTbl_Sertifikalar" msprop:Generator_TablePropName="Tbl_Sertifikalar" msprop:Generator_RowDeletingName="Tbl_SertifikalarRowDeleting" msprop:Generator_RowChangingName="Tbl_SertifikalarRowChanging" msprop:Generator_RowEvHandlerName="Tbl_SertifikalarRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_SertifikalarRowDeleted" msprop:Generator_UserTableName="Tbl_Sertifikalar" msprop:Generator_RowChangedName="Tbl_SertifikalarRowChanged" msprop:Generator_RowEvArgName="Tbl_SertifikalarRowChangeEvent" msprop:Generator_RowClassName="Tbl_SertifikalarRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:short" />
@@ -626,7 +626,7 @@ FROM            Tbl_Yetenekler</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Tbl_Yetenekler" msprop:Generator_TableClassName="Tbl_YeteneklerDataTable" msprop:Generator_TableVarName="tableTbl_Yetenekler" msprop:Generator_TablePropName="Tbl_Yetenekler" msprop:Generator_RowDeletingName="Tbl_YeteneklerRowDeleting" msprop:Generator_RowChangingName="Tbl_YeteneklerRowChanging" msprop:Generator_RowEvHandlerName="Tbl_YeteneklerRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_YeteneklerRowDeleted" msprop:Generator_UserTableName="Tbl_Yetenekler" msprop:Generator_RowChangedName="Tbl_YeteneklerRowChanged" msprop:Generator_RowEvArgName="Tbl_YeteneklerRowChangeEvent" msprop:Generator_RowClassName="Tbl_YeteneklerRow">
+        <xs:element name="Tbl_Yetenekler" msprop:Generator_TableClassName="Tbl_YeteneklerDataTable" msprop:Generator_TableVarName="tableTbl_Yetenekler" msprop:Generator_RowChangedName="Tbl_YeteneklerRowChanged" msprop:Generator_TablePropName="Tbl_Yetenekler" msprop:Generator_RowDeletingName="Tbl_YeteneklerRowDeleting" msprop:Generator_RowChangingName="Tbl_YeteneklerRowChanging" msprop:Generator_RowEvHandlerName="Tbl_YeteneklerRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_YeteneklerRowDeleted" msprop:Generator_RowClassName="Tbl_YeteneklerRow" msprop:Generator_UserTableName="Tbl_Yetenekler" msprop:Generator_RowEvArgName="Tbl_YeteneklerRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:short" />

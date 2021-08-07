@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace DogusCV {
+namespace DogusCV3 {
     
     
     /// <summary>
@@ -3223,7 +3223,7 @@ namespace DogusCV {
         }
     }
 }
-namespace DogusCV.DataSet1TableAdapters {
+namespace DogusCV3.DataSet1TableAdapters {
     
     
     /// <summary>

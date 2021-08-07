@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace DogusCV.Admin_Egitim
+namespace DogusCV3.Admin_Egitim
 {
     public partial class Admin_Egitim : System.Web.UI.Page
     {
